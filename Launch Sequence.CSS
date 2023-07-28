@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.Three {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-y: hidden;
+}
+
+#Soundbutton{
+  
+    width: 4%;
+    height: 4%;
+    position: relative;
+    top: -50px;
+    right: -1560px;
+    background-color: transparent;
+    border: none;
+    z-index: 5;
+}
+  
+#Soundbutton:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
+  
+#Menubutton{
+    
+    width: 4%;
+    height: 4%;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    z-index: 5;
+}
+
+#space{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    top: 670px;
+    left: 750px;
+    z-index: 5;
+    opacity: 1;
+}
+
+#guidtext {
+    font-size: large;
+    position: relative;
+    top: 660px;
+    left: 700px;
+    z-index: 5;
+    color: white;
+    opacity: 1;
+}
+
+.FadeOut {
+    animation: fadeOut 1s 15s ease-in-out forwards;
+}
+
+#HeightParameter {
+    font-size: large;
+    position: relative;
+    top: 555px;
+    left: 821px;
+    z-index: 5;
+    color: white;
+    opacity: 0;
+}
+
+.FadeIn {
+    animation: fadeIn 1s 16s ease-in-out forwards;
+}
+
+#CountDownTimer{
+    font-size: 20px;
+    color: white;
+    opacity: 1;
+    width: fit-content;
+    position: relative;
+    top: 0%;
+    left: 45%;
+    right: 0%;
+    z-index: 5;
+}
+
+
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}

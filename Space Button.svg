@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 245 56">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+        stroke: #ebd065;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 35px;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="122.5" cy="28" fx="-29.53" fy="28" r="152.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#231f20" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#231f20" stop-opacity=".1"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Space_Button" data-name="Space Button">
+      <rect class="cls-2" x="1.5" y="1.5" width="242" height="53"/>
+      <text class="cls-3" transform="translate(78.98 39.14)"><tspan x="0" y="0">Spa</tspan><tspan class="cls-1" x="54.04" y="0">c</tspan><tspan x="69.51" y="0">e</tspan></text>
+    </g>
+  </g>
+</svg>
